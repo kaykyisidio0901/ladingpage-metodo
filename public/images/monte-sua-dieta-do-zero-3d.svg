@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 520" width="400" height="520">
+  <defs>
+    <linearGradient id="cover" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B3F2A"/>
+      <stop offset="100%" stop-color="#2D6A4F"/>
+    </linearGradient>
+    <linearGradient id="spine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#142F20"/>
+      <stop offset="100%" stop-color="#1B3F2A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#F0C27F"/>
+    </linearGradient>
+    <filter id="shadow">
+      <feDropShadow dx="4" dy="6" stdDeviation="12" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+    <filter id="innerShadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Page edge (bottom/right) -->
+  <rect x="36" y="16" width="340" height="492" rx="6" fill="#f0ebe3" filter="url(#shadow)"/>
+
+  <!-- Page edge top -->
+  <rect x="32" y="12" width="340" height="492" rx="6" fill="#f5f0e8"/>
+
+  <!-- Book spine -->
+  <rect x="32" y="12" width="22" height="492" rx="3" fill="url(#spine)"/>
+
+  <!-- Main cover -->
+  <rect x="50" y="12" width="322" height="492" rx="6" fill="url(#cover)"/>
+
+  <!-- Decorative border -->
+  <rect x="62" y="24" width="298" height="468" rx="4" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1.5"/>
+
+  <!-- Top accent bar -->
+  <rect x="62" y="24" width="298" height="3" rx="1.5" fill="url(#accent)" opacity="0.6"/>
+
+  <!-- Brand logo area -->
+  <rect x="80" y="48" width="28" height="28" rx="6" fill="rgba(255,255,255,0.12)"/>
+  <text x="94" y="68" font-family="Inter, sans-serif" font-size="16" font-weight="700" fill="#fff" text-anchor="middle" letter-spacing="1">D</text>
+
+  <!-- Collection name -->
+  <text x="116" y="60" font-family="Inter, sans-serif" font-size="8" font-weight="500" fill="rgba(255,255,255,0.5)" letter-spacing="2">METODO DIETA INTELIGENTE</text>
+  <text x="116" y="72" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="#fff" letter-spacing="1">Colecao Guias Praticos</text>
+
+  <!-- Tag -->
+  <rect x="80" y="96" width="100" height="22" rx="11" fill="rgba(255,255,255,0.1)"/>
+  <text x="130" y="110" font-family="Inter, sans-serif" font-size="9" font-weight="600" fill="rgba(255,255,255,0.7)" text-anchor="middle" letter-spacing="1.5">GUIA PRATICO #01</text>
+
+  <!-- Main title -->
+  <text x="80" y="148" font-family="Inter, sans-serif" font-size="22" font-weight="800" fill="#fff" letter-spacing="-0.5">Monte Sua</text>
+  <text x="80" y="178" font-family="Inter, sans-serif" font-size="22" font-weight="800" fill="url(#accent)" letter-spacing="-0.5">Dieta do Zero</text>
+
+  <!-- Subtitle line -->
+  <line x1="80" y1="196" x2="180" y2="196" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+
+  <text x="80" y="214" font-family="Inter, sans-serif" font-size="10" font-weight="400" fill="rgba(255,255,255,0.6)" letter-spacing="0.5">
+    Aprenda a calcular calorias,
+  </text>
+  <text x="80" y="230" font-family="Inter, sans-serif" font-size="10" font-weight="400" fill="rgba(255,255,255,0.6)" letter-spacing="0.5">
+    proteinas e montar sua
+  </text>
+  <text x="80" y="246" font-family="Inter, sans-serif" font-size="10" font-weight="400" fill="rgba(255,255,255,0.6)" letter-spacing="0.5">
+    alimentacao ideal.
+  </text>
+
+  <!-- Divider -->
+  <line x1="80" y1="268" x2="320" y2="268" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+
+  <!-- Key benefits -->
+  <circle cx="86" cy="290" r="3" fill="#4CAF7A"/>
+  <text x="96" y="293" font-family="Inter, sans-serif" font-size="9" fill="rgba(255,255,255,0.75)">Calculo calorico</text>
+
+  <circle cx="86" cy="310" r="3" fill="#4CAF7A"/>
+  <text x="96" y="313" font-family="Inter, sans-serif" font-size="9" fill="rgba(255,255,255,0.75)">Meta de proteinas</text>
+
+  <circle cx="86" cy="330" r="3" fill="#4CAF7A"/>
+  <text x="96" y="333" font-family="Inter, sans-serif" font-size="9" fill="rgba(255,255,255,0.75)">Cardapio simples</text>
+
+  <circle cx="86" cy="350" r="3" fill="#4CAF7A"/>
+  <text x="96" y="353" font-family="Inter, sans-serif" font-size="9" fill="rgba(255,255,255,0.75)">Checklist pratico</text>
+
+  <!-- Bottom accent bar -->
+  <rect x="62" y="474" width="298" height="3" rx="1.5" fill="url(#accent)" opacity="0.6"/>
+
+  <!-- Subtle shine overlay -->
+  <rect x="50" y="12" width="322" height="492" rx="6" fill="url(#cover)" opacity="0">
+    <animate attributeName="opacity" values="0;0.03;0" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Price tag on cover -->
+  <rect x="260" y="420" width="80" height="50" rx="8" fill="rgba(255,255,255,0.1)"/>
+  <text x="300" y="440" font-family="Inter, sans-serif" font-size="8" font-weight="500" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="1">POR APENAS</text>
+  <text x="300" y="460" font-family="Inter, sans-serif" font-size="18" font-weight="800" fill="url(#accent)" text-anchor="middle">R$9,90</text>
+</svg>
